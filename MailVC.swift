@@ -21,6 +21,21 @@ class MailVC {
         // Salaray
         // Salaray
     
+
+a
+Sa
+sa
+struct as
+ struct structS
+ 
+sa
+struct a
+ a
+
+a
+struct as
+
+
         // Salaray
         // Salaray
         // Salaray
