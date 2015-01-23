@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07630E2E1A71C71C00E7C2A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07630E2D1A71C71C00E7C2A6 /* AppDelegate.swift */; };
+		07630E301A71C71C00E7C2A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07630E2F1A71C71C00E7C2A6 /* ViewController.swift */; };
+		07630E331A71C71C00E7C2A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07630E311A71C71C00E7C2A6 /* Main.storyboard */; };
+		07630E351A71C71C00E7C2A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07630E341A71C71C00E7C2A6 /* Images.xcassets */; };
+		07630E381A71C71C00E7C2A6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07630E361A71C71C00E7C2A6 /* LaunchScreen.xib */; };
+		07630E441A71C71C00E7C2A6 /* FaisalAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07630E431A71C71C00E7C2A6 /* FaisalAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07630E3E1A71C71C00E7C2A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07630E201A71C71C00E7C2A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07630E271A71C71C00E7C2A6;
+			remoteInfo = FaisalApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07630E281A71C71C00E7C2A6 /* FaisalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaisalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07630E2C1A71C71C00E7C2A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07630E2D1A71C71C00E7C2A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07630E2F1A71C71C00E7C2A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07630E321A71C71C00E7C2A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07630E341A71C71C00E7C2A6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		07630E371A71C71C00E7C2A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		07630E3D1A71C71C00E7C2A6 /* FaisalAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaisalAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07630E421A71C71C00E7C2A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07630E431A71C71C00E7C2A6 /* FaisalAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaisalAppTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07630E251A71C71C00E7C2A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07630E3A1A71C71C00E7C2A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07630E1F1A71C71C00E7C2A6 = {
+			isa = PBXGroup;
+			children = (
+				07630E2A1A71C71C00E7C2A6 /* FaisalApp */,
+				07630E401A71C71C00E7C2A6 /* FaisalAppTests */,
+				07630E291A71C71C00E7C2A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07630E291A71C71C00E7C2A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07630E281A71C71C00E7C2A6 /* FaisalApp.app */,
+				07630E3D1A71C71C00E7C2A6 /* FaisalAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07630E2A1A71C71C00E7C2A6 /* FaisalApp */ = {
+			isa = PBXGroup;
+			children = (
+				07630E2D1A71C71C00E7C2A6 /* AppDelegate.swift */,
+				07630E2F1A71C71C00E7C2A6 /* ViewController.swift */,
+				07630E311A71C71C00E7C2A6 /* Main.storyboard */,
+				07630E341A71C71C00E7C2A6 /* Images.xcassets */,
+				07630E361A71C71C00E7C2A6 /* LaunchScreen.xib */,
+				07630E2B1A71C71C00E7C2A6 /* Supporting Files */,
+			);
+			path = FaisalApp;
+			sourceTree = "<group>";
+		};
+		07630E2B1A71C71C00E7C2A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07630E2C1A71C71C00E7C2A6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07630E401A71C71C00E7C2A6 /* FaisalAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				07630E431A71C71C00E7C2A6 /* FaisalAppTests.swift */,
+				07630E411A71C71C00E7C2A6 /* Supporting Files */,
+			);
+			path = FaisalAppTests;
+			sourceTree = "<group>";
+		};
+		07630E411A71C71C00E7C2A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07630E421A71C71C00E7C2A6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07630E271A71C71C00E7C2A6 /* FaisalApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07630E471A71C71C00E7C2A6 /* Build configuration list for PBXNativeTarget "FaisalApp" */;
+			buildPhases = (
+				07630E241A71C71C00E7C2A6 /* Sources */,
+				07630E251A71C71C00E7C2A6 /* Frameworks */,
+				07630E261A71C71C00E7C2A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaisalApp;
+			productName = FaisalApp;
+			productReference = 07630E281A71C71C00E7C2A6 /* FaisalApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07630E3C1A71C71C00E7C2A6 /* FaisalAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07630E4A1A71C71C00E7C2A6 /* Build configuration list for PBXNativeTarget "FaisalAppTests" */;
+			buildPhases = (
+				07630E391A71C71C00E7C2A6 /* Sources */,
+				07630E3A1A71C71C00E7C2A6 /* Frameworks */,
+				07630E3B1A71C71C00E7C2A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07630E3F1A71C71C00E7C2A6 /* PBXTargetDependency */,
+			);
+			name = FaisalAppTests;
+			productName = FaisalAppTests;
+			productReference = 07630E3D1A71C71C00E7C2A6 /* FaisalAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07630E201A71C71C00E7C2A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Bluekit Solutions";
+				TargetAttributes = {
+					07630E271A71C71C00E7C2A6 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					07630E3C1A71C71C00E7C2A6 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 07630E271A71C71C00E7C2A6;
+					};
+				};
+			};
+			buildConfigurationList = 07630E231A71C71C00E7C2A6 /* Build configuration list for PBXProject "FaisalApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07630E1F1A71C71C00E7C2A6;
+			productRefGroup = 07630E291A71C71C00E7C2A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07630E271A71C71C00E7C2A6 /* FaisalApp */,
+				07630E3C1A71C71C00E7C2A6 /* FaisalAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07630E261A71C71C00E7C2A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07630E331A71C71C00E7C2A6 /* Main.storyboard in Resources */,
+				07630E381A71C71C00E7C2A6 /* LaunchScreen.xib in Resources */,
+				07630E351A71C71C00E7C2A6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07630E3B1A71C71C00E7C2A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07630E241A71C71C00E7C2A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07630E301A71C71C00E7C2A6 /* ViewController.swift in Sources */,
+				07630E2E1A71C71C00E7C2A6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07630E391A71C71C00E7C2A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07630E441A71C71C00E7C2A6 /* FaisalAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07630E3F1A71C71C00E7C2A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07630E271A71C71C00E7C2A6 /* FaisalApp */;
+			targetProxy = 07630E3E1A71C71C00E7C2A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07630E311A71C71C00E7C2A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07630E321A71C71C00E7C2A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07630E361A71C71C00E7C2A6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07630E371A71C71C00E7C2A6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07630E451A71C71C00E7C2A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07630E461A71C71C00E7C2A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07630E481A71C71C00E7C2A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FaisalApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07630E491A71C71C00E7C2A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FaisalApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		07630E4B1A71C71C00E7C2A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FaisalAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaisalApp.app/FaisalApp";
+			};
+			name = Debug;
+		};
+		07630E4C1A71C71C00E7C2A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FaisalAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaisalApp.app/FaisalApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07630E231A71C71C00E7C2A6 /* Build configuration list for PBXProject "FaisalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07630E451A71C71C00E7C2A6 /* Debug */,
+				07630E461A71C71C00E7C2A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07630E471A71C71C00E7C2A6 /* Build configuration list for PBXNativeTarget "FaisalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07630E481A71C71C00E7C2A6 /* Debug */,
+				07630E491A71C71C00E7C2A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07630E4A1A71C71C00E7C2A6 /* Build configuration list for PBXNativeTarget "FaisalAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07630E4B1A71C71C00E7C2A6 /* Debug */,
+				07630E4C1A71C71C00E7C2A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07630E201A71C71C00E7C2A6 /* Project object */;
+}
