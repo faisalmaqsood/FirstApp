@@ -13,6 +13,7 @@
 		07630E351A71C71C00E7C2A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07630E341A71C71C00E7C2A6 /* Images.xcassets */; };
 		07630E381A71C71C00E7C2A6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07630E361A71C71C00E7C2A6 /* LaunchScreen.xib */; };
 		07630E441A71C71C00E7C2A6 /* FaisalAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07630E431A71C71C00E7C2A6 /* FaisalAppTests.swift */; };
+		07630E4E1A71CD4F00E7C2A6 /* CheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07630E4D1A71CD4F00E7C2A6 /* CheckView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		07630E3D1A71C71C00E7C2A6 /* FaisalAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaisalAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07630E421A71C71C00E7C2A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07630E431A71C71C00E7C2A6 /* FaisalAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaisalAppTests.swift; sourceTree = "<group>"; };
+		07630E4D1A71CD4F00E7C2A6 /* CheckView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		07630E1F1A71C71C00E7C2A6 = {
 			isa = PBXGroup;
 			children = (
+				07630E4D1A71CD4F00E7C2A6 /* CheckView.swift */,
 				07630E2A1A71C71C00E7C2A6 /* FaisalApp */,
 				07630E401A71C71C00E7C2A6 /* FaisalAppTests */,
 				07630E291A71C71C00E7C2A6 /* Products */,
@@ -214,6 +217,7 @@
 			files = (
 				07630E301A71C71C00E7C2A6 /* ViewController.swift in Sources */,
 				07630E2E1A71C71C00E7C2A6 /* AppDelegate.swift in Sources */,
+				07630E4E1A71CD4F00E7C2A6 /* CheckView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +411,7 @@
 				07630E491A71C71C00E7C2A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07630E4A1A71C71C00E7C2A6 /* Build configuration list for PBXNativeTarget "FaisalAppTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				07630E4C1A71C71C00E7C2A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
