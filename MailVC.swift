@@ -10,6 +10,7 @@ import Foundation
 
 class MailVC {
     
+    //  comment 
     var name :String!
     var age : Int!
     
