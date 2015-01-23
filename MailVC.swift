@@ -15,6 +15,9 @@ class MailVC {
     var age : Int!
     
     var salary : Int!
-    // Salaray 
+    // Salaray
     
+        // Salaray    // Salaray
+        // Salaray
+        // Salaray
 }
